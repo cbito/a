@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>Psy TV</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" type="image/png" href="https://i.imgur.com/FvlA8d6.png" />
+  <style>
+   /* Estilos CSS para la página */
+   body {
+    background-color: #222222;
+    color: #ffffff;
+    font-size: 20px;
+    margin-left: 45px;
+   }
+
+   ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+   }
+
+   li {
+    display: inline-block;
+    margin-right: 20px;
+    vertical-align: top;
+   }
+
+   li img {
+    width: 110px;
+    border-radius: 10%;
+    margin: 0 auto;
+   }
+
+   form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: -35px;
+   }
+
+   form label {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    /* Agregado para hacer que "BUSCAR" esté en negrita */
+    text-align: center;
+   }
+
+   input[type="text"] {
+    height: 22px;
+    width: 50%;
+    max-width: 280px;
+    /* Agrega un ancho máximo para evitar que la barra de búsqueda sea demasiado ancha en pantallas grandes */
+    font-size: 20px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    border-width: 3px;
+    /* Ajusta el grosor de la barra de búsqueda */
+   }
+
+   label,
+   button {
+    font-size: 20px;
+   }
+
+   /* Media queries para dispositivos móviles */
+   @media only screen and (max-width: 768px) {
+    li img {
+     width: 90px;
+    }
+
+    form {
+     margin-top: -30px;
+    }
+   }
+
+   @media only screen and (max-width: 480px) {
+    li img {
+     width: 70px;
+    }
+
+    form {
+     margin-top: auto;
+     margin-left: auto;
+     margin-right: auto;
+     text-align: center;
+    }
+   }
+  </style>
+ </head>
+ <body>
+  <header>
+   <!-- Aquí puedes agregar un encabezado para tu página -->
+  </header>
+  <nav>
+   <!-- Aquí puedes agregar un menú de navegación para tu página -->
+  </nav>
+  <main>
+   <section>
+    <img src="https://i.imgur.com/lkcjzaA.png" alt="Logo de Psy TV">
+    <form>
+     <label for="busqueda">Buscar:</label>
+     <input type="text" id="busqueda" name="busqueda" placeholder="Buscar un canal">
+    </form>
+    <ul id="canales">
+     <li>
+      <a href="https://cabrillos.github.io/bc/ff.html?get=LmN2YXR0di5jb20uYXIvbGl2ZS9jNmVkcy9UZWxlZmVIRC9TQV9MaXZlX2Rhc2hfZW5jL1RlbGVmZUhELm1wZA==&key=M2MwNjRiYmExZTM3NGU1YTM4MWRkMGEzNDRmMTFjZWM=&key2=YTlkMTliY2EwMTJhZTg0YTZjZDAzOTVhN2E0ODA5ZjI=" target="_blank">
+       <img src="https://i.ibb.co/8cjds3T/Telefe.png" alt="Telefe">
+      </a>
+     </li>
+     <li>
+      <a href="https://cabrillos.github.io/mi-pagina/test2.html?get=aHR0cHM6Ly8xMDk1LWFiYy5kdHZvdHQuY29tL2Rhc2hfbGl2ZV8xMDk1L21hbmlmZXN0Lm1wZA==&key=Mjc5NjVhNWU0NzUxNWM1MmFmOTcwZGVmODIzMDE0MmM=&key2=YjJmMTYzYjkzMDI4YTRjMzI1YzBkOGY3ZjFiMjllMjU=" target="_blank">
+       <img src="https://i.ibb.co/xs5Wrxs/eltrece.png" alt="El Trece">
+      </a>
+     </li>
+     <li>
+      <a href="https://cabrillos.github.io/mi-pagina/test2.html?get=aHR0cHM6Ly9lZGdlLXZvZDAxLWhyLmN2YXR0di5jb20uYXIvbGl2ZS9jNmVkcy9DYW5hbDcvU0FfTGl2ZV9kYXNoX2VuYy9DYW5hbDcubXBk&key=Y2M4YzgyYWMyZWM3ZTk3OTk1MjdjMjlkYjczNTRlODE=&key2=Y2M0YWFlMTczZGQyZWYxN2FlMjZiZTNmN2FlODc2NjI=" target="_blank">
+       <img src="https://i.ibb.co/K2Hxk2W/tv-publica.png" alt="TV Publica">
+      </a>
+     </li>
+     <li>
+      <a href="https://cabrillos.github.io/bc/ff.html?get=LmN2YXR0di5jb20uYXIvbGl2ZS9jM2Vkcy9BbWVyaWNhVFYvU0FfTGl2ZV9kYXNoX2VuY18yQS9BbWVyaWNhVFYubXBk&key=OGVhMjM1Y2UwODI2NDA4YjIyMWM0OTgxMTVhOWI2MmQ=&key2=N2FhOTI2NmVkOTFlYTQ1MTA0ODMzNzAwMjlkZmNmNDU=" target="_blank">
+       <img src="https://i.ibb.co/X7kM45m/america-tv-arg.png" alt="America TV">
+      </a>
+     </li>
+     <li>
+      <a href="https://cabrillos.github.io/mi-pagina/test2.html?get=aHR0cHM6Ly9lZGdlLXZvZDAxLWhyLmN2YXR0di5jb20uYXIvbGl2ZS9jN2Vkcy9DNU4vU0FfTGl2ZV9kYXNoX2VuY18yQS9DNU4ubXBk&key=MDUwZGY1YzZlNzhjNzc0ZTc4YzNlOTllZWY4YTFiMjk=&key2=MGU0MTQxZDZhYjIxYTM2Y2JjNGRhNzc3YWIzMDk2ZDQ=" target="_blank">
+       <img src="https://i.ibb.co/Lz2LCRS/C5N.png" alt="C5N">
+      </a>
+     </li>
+     <li>
+      <a href="https://cabrillos.github.io/mi-pagina/ch.html?get=aHR0cHM6Ly9lZGdlLXZvZDAxLWhyLmN2YXR0di5jb20uYXIvbGl2ZS9jN2Vkcy9Dcm9uaWNhVFYvU0FfTGl2ZV9kYXNoX2VuYy9Dcm9uaWNhVFYubXBk&key=NzQ1ZTdhYmNjOTBkNDFhYjcwNmIyYWMyZjQzNzFkYTM=&key2=NTBhY2Q5ZDE5ZDEzNjFjYjRhOGExM2E4NjdiZGMzNTI=" target="_blank">
+       <img src="https://i.ibb.co/tH5FTbf/cronica.png" alt="Cronica TV">
+      </a>
+     </li>
+     <li>
+      <a href="https://cabrillos.github.io/mi-pagina/test2.html?get=aHR0cHM6Ly9lZGdlLXZvZDAxLWhyLmN2YXR0di5jb20uYXIvbGl2ZS9jN2Vkcy9BbWVyaWNhMjQvU0FfTGl2ZV9kYXNoX2VuY18yQS9BbWVyaWNhMjQubXBk&key=M2IxYjAyN2RkMDExYWYyMGZkOTk1NmMxNmRjMDg0ZmI=&key2=NDVmNzVhYWNmMDY1OTNjOWI2OTNmZTQyN2M2N2U1Yjg=" target="_blank">
+       <img src="https://i.ibb.co/FVvfJn2/a24.png" alt="A24">
+      </a>
+     </li>
+     <li>
+      <a href="https://cabrillos.github.io/mi-pagina/d5.html?id=1" target="_blank">
+       <img src="https://i.ibb.co/zP8X2KR/canal-9.png" alt="Canal 9">
+      </a>
+     </li>
+     <li>
+      <a href="https://cabrillos.github.io/mi-pagina/test2.html?get=aHR0cHM6Ly9lZGdlLXZvZDAxLWhyLmN2YXR0di5jb20uYXIvbGl2ZS9jNmVkcy8yNl9UVl9IRC9TQV9MaXZlX2Rhc2hfZW5jXzJBLzI2X1RWX0hELm1wZA==&key=ZTMyYWFhNGI2NzQzMGIzYjUxYmUxZWZjZTVhNzRhYzU=&key2=YWQ2MGM1ZTFkMzc4YTk3MjcxYmY4Njg4ZjA5NGQwOTI=" target="_blank">
+       <img src="https://i.ibb.co/gd69Grt/canal-26.png" alt="Canal 26">
+      </a>
+     </li>
+     <li>
+      <a href="https://cabrillos.github.io/mi-pagina/d5.html?id=2" target="_blank">
+       <img src="https://i.ibb.co/Z1xYwpF/TN.png" alt="TN">
+      </a>
+     </li>
+     <li>
+      <a href="https://cabrillos.github.io/mi-pagina/d5.html?id=7" target="_blank">
+       <img src="https://i.imgur.com/iJMH0UK.png" alt="Canal 7">
+      </a>
+     </li>
+     <li>
+      <a href="https://cabrillos.github.io/mi-pagina/d5.html?id=11" target="_blank">
+       <img src="https://i.imgur.com/uBBZR1X.png" alt="Encuentro">
+      </a>
+     </li>
+     <li>
+      <a href="https://cabrillos.github.io/bc/ff.html?get=LmN2YXR0di5jb20uYXIvbGl2ZS9jN2Vkcy9MYV9OYWNpb24vU0FfTGl2ZV9kYXNoX2VuYy9MYV9OYWNpb24ubXBk&key=ZjRlYWRlN2JiYzM5YjI1NDAyYWNmYTMwMWJiYWQwNGE=&key2=YTc0ZDFkZjQyMzVhNzQ4NzgzMjdhYThkNTNmZjI4M2M=" target="_blank">
+       <img src="https://i.imgur.com/iA30cb0.png" alt="La Nacion">
+      </a>
+     </li>
+     <li>
+      <a href="https://cabrillos.github.io/mi-pagina/d5.html?id=12" target="_blank">
+       <img src="https://i.imgur.com/dbu9nx4.png" alt="IP Noticias">
+      </a>
+     </li>
+     <li>
+      <a href="https://cabrillos.github.io/mi-pagina/d5.html?id=10" target="_blank">
+       <img src="https://i.imgur.com/A1xzjOI.png" alt="DW Espanol">
+      </a>
+     </li>
+     <li>
+      <a href="https://cabrillos.github.io/mi-pagina/d5.html?id=14" target="_blank">
+       <img src="https://i.ibb.co/M8KLvtp/Russia-today-logo-svg.png" alt="RT Espanol">
+      </a>
+     </li>
+     <li>
+      <a href="https://cabrillos.github.io/bc/ff.html?get=LmN2YXR0di5jb20uYXIvbGl2ZS9jN2Vkcy9UeUNTcG9ydC9TQV9MaXZlX2Rhc2hfZW5jL1R5Q1Nwb3J0Lm1wZA==&key=MmIyMWM4ZmE5YTMyOWNjZTMxMWE0YzRhNGFhOTk2YTE=&key2=Y2MyM2VhMWZiMzI2MjlmOWUxZjQ4YzhkZWVhZTNlNWI=" target="_blank">
+       <img src="https://i.ibb.co/qpTdfGS/tyc-sports.png" alt="TyC Sport">
+      </a>
+     </li>
+     <li>
+      <a href="https://cabrillos.github.io/mi-pagina/test2.html?get=Ly8xMTA5LXZvcy5kdHZvdHQuY29tL0RBU0gvbWFuaWZlc3QubXBk&key=NTM0ZDQ4ODg1MmIzMzMwMjg0MzA3ZDFhM2NhMGZkM2I=&key2=MmQxZDJhMTI0NTRiNjgyZGYxOTdmZjI2ZmY1MjUzYTU=" target="_blank">
+       <img src="https://i.ibb.co/BsV6CqW/espn.png" alt="ESPN">
+      </a>
+     </li>
+     <li>
+      <a href="https://cabrillos.github.io/mi-pagina/tv.html?id=1098" target="_blank">
+       <img src="https://i.ibb.co/1JJr1ks/espn-2.png" alt="ESPN2">
+      </a>
+     </li>
+     <li>
+      <a href="https://cabrillos.github.io/mi-pagina/tv.html?id=1103" target="_blank">
+       <img src="https://i.ibb.co/WfGfmGN/espn-3.png" alt="ESPN3">
+      </a>
+     </li>
+     <li>
+      <a href="https://nosequewea.tk/dtvc?get=Ly9kdHZvdHQtY2JjLmFrYW1haXplZC5uZXQvZGFzaF9saXZlXzExMTkvbWFuaWZlc3QubXBk&key=NTIyMmJkOGMyODk4NTkzOTgyZmMyNTUwZTQ5M2FhNjk=&key2=NTliMjY5YjgwYmVjZDAzNjMwN2E2MDVkOTkzODE2MGY=" target="_blank">
+       <img src="https://i.ibb.co/JrV33tG/espn-4.png" alt="ESPN4">
+      </a>
+     </li>
+     <li>
+      <a href="https://cabrillos.github.io/mi-pagina/tv.html?id=1125" target="_blank">
+       <img src="https://i.ibb.co/w7SGDc5/espnpremium.webp" alt="ESPN PREMIUM">
+      </a>
+     </li>
+     <li>
+      <a href="https://cabrillos.github.io/bc/v.html" target="_blank">
+       <img src="https://i.ibb.co/pX4fMwK/TNT.webp" alt="TNT">
+      </a>
+     </li>
+     <li>
+      <a href="https://cabrillos.github.io/bc/fl2.html?get=Ly9lZGdlLXZvZDAxLXNsLmN2YXR0di5jb20uYXIvbGl2ZS9jM2Vkcy9UTlRTZXJpZXMvU0FfTGl2ZV9kYXNoX2VuYy9UTlRTZXJpZXMubXBk&key=NWMxNGQ2YWViMTliZjExM2VkZjkxYTdiNTQ0MjUzY2I=&key2=OGQ3NzZkNmY5YzVjODQwZWJlODhkNzY3ZGQ3MzE2OTI=" target="_blank">
+       <img src="https://i.ibb.co/NTQJXbB/TNT-Series.png" alt="TNT Series">
+      </a>
+     </li>
+     <li>
+      <a href="https://nosequewea.tk/dtvc?get=Ly9kdHZvdHQtYWJjLmFrYW1haXplZC5uZXQvZGFzaF9saXZlXzExNDAvbWFuaWZlc3QubXBk&key=OTllZWZjMDY4ZGIzNTA5YjlmMGNmNWIzNDExNDIxOWQ=&key2=NmMyM2UzMWE0ZDgzYjU2OGU4NGFlYzYwOWE2M2ViYzk=" target="_blank">
+       <img src="https://i.ibb.co/pLPD0WD/HBO.webp" alt="HBO">
+      </a>
+     </li>
+     <li>
+      <a href="https://cabrillos.github.io/mi-pagina/hbo2.html" target="_blank">
+       <img src="https://i.ibb.co/Swt9FDB/HBO-2.jpg" alt="HBO2">
+      </a>
+     </li>
+     <li>
+      <a href="https://cabrillos.github.io/abc/dtvc.htm?get=aHR0cHM6Ly9kdHZvdHQtYWJjLmFrYW1haXplZC5uZXQvZGFzaF9saXZlXzExNDEvbWFuaWZlc3QubXBk&key=Njc5NWEzMDNhOWU4NTE3ZmJjYTM4Mzc2YzBhZjJmNzY=&key2=MWJkYjMxNzIyOTA2NmFkMmQ3NGM0ODE0YTEzOGUxMzY=" target="_blank">
+       <!-- hbodtv-->
+       <img src="https://i.ibb.co/jwh41qp/hboplus.png" alt="HBO PLUS">
+      </a>
+     </li>
+     <li>
+      <a href="https://cabrillos.github.io/bc/fl2.html?get=Ly9lZGdlLW1peDAxLWNlbi5jdmF0dHYuY29tLmFyL2xpdmUvYzZlZHMvSEJPX0ZhbWlseS9TQV9MaXZlX2Rhc2hfZW5jL0hCT19GYW1pbHkubXBk&key=NTM1NDczMTMyZjY4MDgyMTYwYjQ4OTQ4MmNhMzVmOGU=&key2=ZTkwZmQ5MWZjZDNmYzgwOWJlZDJiMWMwZDM3ZjcyOTc=" target="_blank">
+       <img src="https://i.ibb.co/ph549my/hbofam.png" alt="HBO Family">
+      </a>
+     </li>
+     <li>
+      <a href="https://cabrillos.github.io/bc/fl2.html?get=aHR0cHM6Ly9lZGdlLXZvZDAxLWhyLmN2YXR0di5jb20uYXIvbGl2ZS9jNmVkcy9IQk9fTXVuZGkvU0FfTGl2ZV9kYXNoX2VuYy9IQk9fTXVuZGkubXBk&key=NzgyMWIyNjYyMTQ4ZmUzMzNkNTE5MWFjYmI4YTVjMWY=&key2=YWU0M2YzZTI1NDUyMzdlYmRhNThiMTM4MTNiNWQzMjg=" target="_blank">
+       <img src="https://i.ibb.co/FxF0RVW/hbomundi.png" alt="HBO Mundi">
+      </a>
+     </li>
+     <li>
+      <a href="https://cabrillos.github.io/bc/fl2.html?get=Ly9lZGdlNi1jY2FzdC1zbC5jdmF0dHYuY29tLmFyL2xpdmUvYzZlZHMvSEJPX1NpZ25hdHVyZS9TQV9MaXZlX2Rhc2hfZW5jL0hCT19TaWduYXR1cmUubXBk&key=ZTg2NjQ5OWZiYzExNDlmNDk5ODk2NzIwNzVhYTNhNjg=&key2=ZDJkZDVjOTU2MjNjNjM0MzI0MDk4MWMyMjAyZmMzMTE=" target="_blank">
+       <img src="https://i.imgur.com/ek9vLuj.png" alt="HBO Signature">
+      </a>
+     </li>
+     <li>
+      <a href="https://cabrillos.github.io/bc/ff.html?get=LmN2YXR0di5jb20uYXIvbGl2ZS9jN2Vkcy9IQk9fUE9QL1NBX0xpdmVfZGFzaF9lbmMvSEJPX1BPUC5tcGQ=&key=ZjRlMWNlNWNlZjdlOWExMTBmZTk2OGY4ODgxYjIxZmE=&key2=NmJiZTIwNjJiMTUwYjExNDk2Y2RkNWZiZGQ5Yzg5ZDY=" target="_blank">
+       <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/HBO_Pop.svg/1200px-HBO_Pop.svg.png" alt="HBO Pop">
+      </a>
+     </li>
+     <li>
+      <a href="https://cabrillos.github.io/bc/fl2.html?get=aHR0cHM6Ly9lZGdlLXZvZDAxLWhyLmN2YXR0di5jb20uYXIvbGl2ZS9jNmVkcy9IQk9fRXh0cmVtZS9TQV9MaXZlX2Rhc2hfZW5jL0hCT19FeHRyZW1lLm1wZA==&key=ZDUwNDAxMWJiZWY0NjdjMGRlM2E3NTM0ZTMwMmE2ZDQ=&key2=MzM0MTAzZTJhYmUxNmZhYTdmOWFiMmUzMDk3YzVhNTg=" target="_blank">
+       <img src="https://i.ibb.co/CJGd1fY/hboxtreme.png" alt="HBO Xtreme">
+      </a>
+     </li>
+     <li>
+      <a href="https://nosequewea.tk/dtvc?get=aHR0cHM6Ly9kdHZvdHQtYWJjLmFrYW1haXplZC5uZXQvZGFzaF9saXZlXzExOTYvbWFuaWZlc3QubXBk&key=N2MzOGQ5MzEwZDNjNWI0NmEzN2EzOWJiZWM2ZGQ2OGE=&key2=ZjQzMzNkZmIwZTcwOGVjOTg2NWI5YTZmZjJhOGUwNjg=" target="_blank">
+       <img src="https://i.imgur.com/NYYkMbT.png" alt="Star Channel">
+      </a>
+     </li>
+     <li>
+      <a href="https://cabrillos.github.io/bc/fl2.html?get=aHR0cHM6Ly9lZGdlLXZvZDAxLWhyLmN2YXR0di5jb20uYXIvbGl2ZS9jN2Vkcy9XYXJuZXJIRC9TQV9MaXZlX2Rhc2hfZW5jXzJBL1dhcm5lckhELm1wZA==&key=MDY5YmQzZjBiNmMyNzk0NjdlMDg1NDlmMTdiZjViZDA=&key2=NWFmYTdlMzY5YTZkZTEwOTM4MThhODVhZjkxMmE3NzU=" target="_blank">
+       <img src="https://i.imgur.com/K1AFnWQ.png" alt="Warner Bros">
+      </a>
+     </li>
+     <li>
+      <a href="https://cabrillos.github.io/bc/fl2.html?get=aHR0cHM6Ly8xMDQxLXZvcy5kdHZvdHQuY29tL0RBU0gvbWFuaWZlc3QubXBk&key=NWRmMTRjNjFhZjk1MzEyMjk3YTA0YjEwNjg0MDAzMjM=&key2=NmI1ZWFkNTM2YTk5MDQ0OTcxOGRhY2U2Zjc4MGI3ZWY=" target="_blank">
+       <img src="https://i.imgur.com/TgzavOy.png" alt="Cinecanal">
+      </a>
+     </li>
+     <li>
+      <a href="https://cabrillos.github.io/bc/fl2.html?get=aHR0cHM6Ly8xMTI5LXZvcy5kdHZvdHQuY29tL0RBU0gvbWFuaWZlc3QubXBk&key=N2Q4MGNjZGI5NzIwMzJhYzg2ZjhkZjZjMmU5N2I2MWU=&key2=MmY4OTY5ZWFlZTI2NDQ4OWQ2NDU0MmI5NGEzZTk4MDc=" target="_blank">
+       <img src="https://i.imgur.com/FXl2WuB.png" alt="FX">
+      </a>
+     </li>
+     <li>
+      <a href="https://cabrillos.github.io/bc/fl2.html?get=aHR0cHM6Ly8xMDE5LXZvcy5kdHZvdHQuY29tL0RBU0gvbWFuaWZlc3QubXBk&key=YzE1MmJiNDY5NjU2M2Q2ZDkzNjljMzc1ZTMyOGE4ZmQ=&key2=YzA3N2YwOWUzYTlkZmVmMDU4MGM5YWU5ZjI5ZTNiZjI=" target="_blank">
+       <img src="https://i.imgur.com/6YL7pPK.png" alt="AXN">
+      </a>
+     </li>
+     <li>
+      <a href="https://cabrillos.github.io/bc/p.html" _blank">
+       <img src="https://i.imgur.com/HrrhGAf.png" alt="Paramount">
+      </a>
+     </li>
+     <li>
+      <a href="https://cabrillos.github.io/bc/fl2.html?get=aHR0cHM6Ly8xMTkzLXZvcy5kdHZvdHQuY29tL0RBU0gvbWFuaWZlc3QubXBk&key=ZjNhZjcxZDdjMjFhMzgxZmI2ZjQxYTE1NjQyOTNiMDY=&key2=YjIxZTNiNDY2ZTZkMzk5NjE4YmRhZTZjZDlkZDUyNDI=" target="_blank">
+       <img src="https://i.imgur.com/I0jhhwz.png" alt="Space HD">
+      </a>
+     </li>
+     <li>
+      <a href="https://nosequewea.tk/dtvc?get=aHR0cHM6Ly9kdHZvdHQtY2JjLmFrYW1haXplZC5uZXQvZGFzaF9saXZlXzEyMTEvbWFuaWZlc3QubXBk&key=M2Y5MGFhZmQwYWI4NWM2ZDkyZTkzMTE0ZTI3ODkxN2I=&key2=OWIxZTQxZThhNTVhMTgyZjY5MDAwYmRjOTMwNGUzY2M=" target="_blank">
+       <img src="https://i.imgur.com/8TtfZUf.png" alt="SYFY">
+      </a>
+     </li>
+     <!-- 
+	<li><a href="https://cbito.github.io/d/star_wsp?get=https:///live-ftc-na-south-2.media.starott.com/gru1/qb01/starplus/event/2023/03/25/Leyendas_Villarreal_vs_Le_20230325_1679755219033/ctr-all-complete.m3u8&img=https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/B48CFA2073B0E64B4D80084607B37D978458DE406E36468040CE404094B60334/scale?width=1920&aspectRatio=1.78&format=jpeg&key=a1a779e2618144a38a43687377ef744f&key2=aab68e5fc521ca1da67dfad4ea450e8c" target="_blank"><img src="https://i.imgur.com/rDuFTO0.png" alt="Villareal"></a></li>
+-->
+     <li>
+      <a href="https://cabrillos.github.io/bc/m3u8.html?get=Ly9uZXdzLmNndG4uY29tL3Jlc291cmNlL2xpdmUvZXNwYW5vbC9jZ3RuLWUubTN1OA==" target="_blank">
+       <img src="https://megatelevisiontv.live/img/logo_canal/CGTN.png" alt="CGTN">
+      </a>
+     </li>
+     <li>
+      <a href="https://cabrillos.github.io/bc/ff.html?get=LmN2YXR0di5jb20uYXIvbGl2ZS9jN2Vkcy9Tb255SEQvU0FfTGl2ZV9kYXNoX2VuY18yQS9Tb255SEQubXBk&key=ZmQ5NjE5ZjlkN2MyZDUxMTVhMzM5OTQxMjc5ZTBiNGI=&key2=YmY1NTYzNWU2NTkxZjkwNTY1OWZhMjdhYjNjYTI4MTI=" target="_blank">
+       <img src="https://cdn2.sfntv.xyz/webp/logos/optimized/sony.webp" alt="Sony Channel">
+      </a>
+     </li>
+     <li>
+      <a href="https://cabrillos.github.io/bc/ff.html?get=LmN2YXR0di5jb20uYXIvbGl2ZS9jN2Vkcy9Tb255SEQvU0FfTGl2ZV9kYXNoX2VuY18yQS9Tb255SEQubXBk&key=ZmQ5NjE5ZjlkN2MyZDUxMTVhMzM5OTQxMjc5ZTBiNGI=&key2=YmY1NTYzNWU2NTkxZjkwNTY1OWZhMjdhYjNjYTI4MTI=" target="_blank">
+       <img src="https://cdn2.sfntv.xyz/webp/logos/optimized/sonymovies.webp" alt="Sony Movies">
+      </a>
+     </li>
+     <li>
+      <a href="https://cabrillos.github.io/bc/m3u8.html?get=aHR0cHM6Ly9zcHQtbm92ZWxhcy0xLXVzLnNhbXN1bmcud3VybC50di9wbGF5bGlzdC5tM3U4" target="_blank">
+       <img src="https://provider-static.plex.tv/epg/images/ott_channels/arts/sony_novelas_1.jpg" alt="Sony Novelas">
+      </a>
+     </li>
+     <li>
+      <a href="https://cabrillos.github.io/bc/m3u8.html?get=aHR0cHM6Ly9zcHQtY29tcGV0ZW5jaWFzLTEtdXMuc2Ftc3VuZy53dXJsLnR2L3BsYXlsaXN0Lm0zdTg=" target="_blank">
+       <img src="https://i.imgur.com/zoUBwP9.png" alt="Sony Competencias">
+      </a>
+     </li>
+     <li>
+      <a href="https://cabrillos.github.io/bc/ff.html?get=LmN2YXR0di5jb20uYXIvbGl2ZS9jNmVkcy9JU0FUL1NBX0xpdmVfZGFzaF9lbmMvSVNBVC5tcGQ=&key=ZGI3NjQxNjQ5MzRhNDg3NDlhN2EwMWJkMDE1Njk0ZjM=&key2=NTEyZjNjODg2OWFmNDVlNmU1ZGQxNTI1YjZhNzc4Njc=" target="_blank">
+       <img src="https://megatelevisiontv.live/img/logo_canal/I.Sat.png" alt="Isat">
+      </a>
+     </li>
+     <li>
+      <a href="https://cabrillos.github.io/bc/fl2.html?get=aHR0cHM6Ly8xMDQ2LXZvcy5kdHZvdHQuY29tL0RBU0gvbWFuaWZlc3QubXBk&key=YTdiMDVlMzY2NzkwMzcwMGFmMzUzNTZkZDA0ZGM1NDE=&key2=NjJiNTlmMDYxODQ4NDQ1MmE3ZTczNWQxZmFmM2UzYTQ=" target="_blank">
+       <img src="https://cdn2.sfntv.xyz/webp/logos/optimized/cinemax.webp" alt="Cinemax">
+      </a>
+     </li>
+     <li>
+      <a href="https://cabrillos.github.io/bc/fl2.html?get=aHR0cHM6Ly8xMDU0LXZvcy5kdHZvdHQuY29tL0RBU0gvbWFuaWZlc3QubXBk&key=N2JiNzFkMDdmM2ZiM2VjYTk3NDY3YmVjZWVjMDQwY2Y=&key2=NGJhMThiYjYyZjAzY2RjZGI4NDE5MzgzZmYwZGZjODI=" target="_blank">
+       <img src="https://megatelevisiontv.live/img/logo_canal/Comedy_Central.png" alt="ComedyCentral">
+      </a>
+     </li>
+     <li>
+      <a href="https://cabrillos.github.io/bc/fl2.html?get=Ly8xMDAzLXZvcy5kdHZvdHQuY29tL0RBU0gvbWFuaWZlc3QubXBk&key=YjRhZDYyM2M4ZTY2MzczMDgyZjI2YWQzZDU5MWI0MzM=&key2=NDQ1ZGEwYjlkYTdmMWVkYzIxNzNiOGY5NmUyMTYxOGU=" target="_blank">
+       <img src="https://megatelevisiontv.live/img/logo_canal/A&E.png" alt="A&E">
+      </a>
+     </li>
+     <li>
+      <a href="https://cabrillos.github.io/repro/index?url=Ly9iNDMxODYuMy5jZG4udGVsZWZvbmljYS5jb20vNDMxODYvaW5kZXgubXBkL01hbmlmZXN0Lm1wZD9zdGFydD1MSVZFJmVuZD1FTkQmZGV2aWNlPURhc2hhdmMmdGNkbi1iaXRyYXRlLWZpbHRlcj1MaXZlTC1N&kid=YzM0YzdhNjhiOGEzNDlhZjllYWE3MWRjZDI1MDIwZTU=&k=MTJkNzYzY2FhNWM4NzBmM2E3MzMxMjYxYjc1MzA5NjM=" target="_blank">
+       <img src="https://megatelevisiontv.live/wp/wp-content/uploads/2021/09/1200px-2020_Canal_DHE_logo.svg-1-e1632252542835.png" alt="DHE">
+      </a>
+     </li>
+     <li>
+      <a href="https://cabrillos.github.io/bc/fl2.html?get=Ly8xMjEwLXZvcy5kdHZvdHQuY29tL0RBU0gvbWFuaWZlc3QubXBk&key=Yjg1NjlkYWRiMTU2MzIwNmEyYzJiYjBiZGI2NjU1Yjg=&key2=ZTE3ZmVjMWIxODk3YjViMWMyNTg4Mzc0OWE4OWNmNzY=" target="_blank">
+       <img src="https://megatelevisiontv.live/wp/wp-content/uploads/2021/09/descarga-7-e1632252338500.png" alt="Universal Studio">
+      </a>
+     </li>
+     <li>
+      <a href="https://cabrillos.github.io/bc/ff.html?get=LmN2YXR0di5jb20uYXIvbGl2ZS9jNmVkcy9Vbml2ZXJzYWxfQ2hhbm5lbF9IRC9TQV9MaXZlX2Rhc2hfZW5jXzJBL1VuaXZlcnNhbF9DaGFubmVsX0hELm1wZA==&key=NmNmOWExM2Q2ZmQ2NWEwZjJlMWNlZTM5NjlhYWI5ZjU=&key2=ZWE2MWMzYzFhZGVlNzFiNWMyZTk3NDRlNDFkNGI3NWY=" target="_blank">
+       <img src="https://i.ibb.co/5BXR6z6/Universal-TV.png" alt="Universal Channel">
+      </a>
+     </li>
+     <li>
+      <a href="https://cabrillos.github.io/mi-pagina/test2.html?get=Ly9saXZlMi1vdHQuaXp6aWdvLnR2L291dC91L2Rhc2gvVU5JVkVSU0FMLUNPTUVEWS1IRC9kZWZhdWx0Lm1wZA==&key=OTJiMTYyYjBiMWQwZGJiMWU0MDFmNTg0NWI0Y2UxMDk=&key2=ODNiN2FlMjc2Nzg0YTdmNzhmNGEwYzExOTA5NzRkNWM=&lang=0" target="_blank">
+       <img src="https://i.ibb.co/bmncYZJ/Universal-Cinema-Oscuro.png" alt="Universal Cinema">
+      </a>
+     </li>
+     <li>
+      <a href="https://cabrillos.github.io/mi-pagina/test2.html?get=Ly9saXZlMi1vdHQuaXp6aWdvLnR2L291dC91L2Rhc2gvVU5JVkVSU0FMLUNPTUVEWS1IRC9kZWZhdWx0Lm1wZA==&key=OTJiMTYyYjBiMWQwZGJiMWU0MDFmNTg0NWI0Y2UxMDk=&key2=ODNiN2FlMjc2Nzg0YTdmNzhmNGEwYzExOTA5NzRkNWM=&lang=0" target="_blank">
+       <img src="https://i.ibb.co/dcq71m8/Universal-Comedy-Oscuro.png" alt="Universal Comedy">
+      </a>
+     </li>
+     <li>
+      <a href="https://cabrillos.github.io/mi-pagina/test2.html?get=Ly9saXZlMi1vdHQuaXp6aWdvLnR2L291dC91L2Rhc2gvVU5JVkVSU0FMLUNPTUVEWS1IRC9kZWZhdWx0Lm1wZA==&key=OTJiMTYyYjBiMWQwZGJiMWU0MDFmNTg0NWI0Y2UxMDk=&key2=ODNiN2FlMjc2Nzg0YTdmNzhmNGEwYzExOTA5NzRkNWM=&lang=0" target="_blank">
+       <img src="https://i.ibb.co/LSBfb8t/Universal-Crime-Oscuro.png" alt="Universal Crime">
+      </a>
+     </li>
+     <li>
+      <a href="https://cabrillos.github.io/mi-pagina/test2.html?get=Ly9saXZlMi1vdHQuaXp6aWdvLnR2L291dC91L2Rhc2gvVU5JVkVSU0FMLVBSRU1JRVJFLUhEL2RlZmF1bHQubXBk&key=OWNjZDVkZDBjODZhNDBlZDcxOWI4M2UxODAxYmNkODg=&key2=NmQ1ZTYyNTI1ODM3YmE5YjdlMDljZmI4NzE2MTE2YmE=&lang=0" target="_blank">
+       <img src="https://i.ibb.co/VQTnZpb/Universal-Premiere-Oscuro.png" alt="Universal Premiere">
+      </a>
+     </li>
+     <li>
+      <a href="https://cabrillos.github.io/mi-pagina/test2.html?get=Ly9saXZlMi1vdHQuaXp6aWdvLnR2L291dC91L2Rhc2gvVU5JVkVSU0FMLVJFQUxJVFktSEQvZGVmYXVsdC5tcGQ=&key=MDJhMDJiY2U3YTNjNTE4Mzg2ZTBkYTRlNWVjMDE4OGQ=&key2=MDcxYzdjYzRjMmYzM2UxZTJkM2ZhMzgwN2QxYmJiY2M=&lang=0" target="_blank">
+       <img src="https://i.ibb.co/BPwDghw/Universal-Reality-Oscuro.png" alt="Universal Reality">
+      </a>
+     </li>
+     <li>
+      <a href="https://cabrillos.github.io/bc/ff.html?get=LmN2YXR0di5jb20uYXIvbGl2ZS9jM2Vkcy9EaXNjb3ZlcnlIRC9TQV9MaXZlX2Rhc2hfZW5jXzJBL0Rpc2NvdmVyeUhELm1wZA==&key=YzI4M2M4NGE3YWYwZDdjOGI5YjYxMmE4ZmIyMmEwMDE=&key2=ZjQ1NTEwYzcyMWVlYmQ2ZWFhODZhMmUxNmNjYmQ3N2Q=&lang=0" target="_blank">
+       <img src="https://i.ibb.co/BPwDghw/Universal-Reality-Oscuro.png" alt="Discovery Channel">
+      </a>
+     </li>
+     <li>
+      <a href="https://cabrillos.github.io/bc/ff.html?get=LmN2YXR0di5jb20uYXIvbGl2ZS9jNmVkcy9EaXNjb3ZlcnlfV29ybGRfSEQvU0FfTGl2ZV9kYXNoX2VuY18yQS9EaXNjb3ZlcnlfV29ybGRfSEQubXBk&key=MzRlZTk0YzIyNjMzNDVmN2EzYTU5MDY2MTI2NGU0OTA=&key2=NTY3NTdkNjU2YTY5N2FiN2EyZTVlMDgzYjVkMjFiYjU=" target="_blank">
+       <img src="https://www.tvmagazine.com.br/imagens/icones/600/discoveryworld.png" alt="Discovery World">
+      </a>
+     </li>
+     <li>
+      <a href="https://cabrillos.github.io/bc/ff.html?get=LmN2YXR0di5jb20uYXIvbGl2ZS9jNmVkcy9UaGVhdGVyX0hEL1NBX0xpdmVfZGFzaF9lbmMvVGhlYXRlcl9IRC5tcGQ=&key=NTI3OWMwNWVhNTFjNGRhZThlN2ZhNmJlODg0NDgwODk=&key2=YjI4ZGZhZmJhNGI4NDhkZmQ1ZDdjMTc3ZWJmMTkxMDg=" target="_blank">
+       <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/2015_Discovery_theater_HD_logo.svg/2560px-2015_Discovery_theater_HD_logo.svg.png" alt="Discovery Theater">
+      </a>
+     </li>
+     <li>
+      <a href="https://cabrillos.github.io/bc/ff.html?get=LmN2YXR0di5jb20uYXIvbGl2ZS9jNmVkcy9EaXNjb3ZlcnlfU2NpZW5jZS9TQV9MaXZlX2Rhc2hfZW5jXzJBL0Rpc2NvdmVyeV9TY2llbmNlLm1wZA==&key=NDZiYTQwOWZiMDRlNDBmYjg2YjQ2NmQ5N2UzYTk1ODg=&key2=ZjEyOWZiOWI1ZDIxM2UyMGUyYWJlNTI5YjhjZjI1OTc=" target="_blank">
+       <img src="https://cdn.mitvstatic.com/channels/ar_discovery-science_m.png" alt="Discovery Science">
+      </a>
+     </li>
+     <li>
+      <a href="https://cabrillos.github.io/bc/ff.html?get=LmN2YXR0di5jb20uYXIvbGl2ZS9jNmVkcy9UTEMvU0FfTGl2ZV9kYXNoX2VuY18yQS9UTEMubXBk&key=NTg3NjFjN2IyODE5NDkxZWIzYTBkNzY1ODQyYzM0MWE=&key2=OWRhYmM0OGY4OGJkN2YyNjY3MzRlNTc1MDFiZDZmNDc=" target="_blank">
+       <img src="https://megatelevisiontv.live/img/logo_canal/Discovery_TLC.png" alt="Discovery TLC">
+      </a>
+     </li>
+     <li>
+      <a href="https://cabrillos.github.io/bc/ff.html?get=LmN2YXR0di5jb20uYXIvbGl2ZS9jN2Vkcy9JRC9TQV9MaXZlX2Rhc2hfZW5jL0lELm1wZA==&key=MDk1NmNhZjJlMmJkNDFmNDlmZGNlYWQ3Y2M5NGZlMjQ=&key2=NjQwYzQ5NTc4MDczYTkxMTkzODYxN2ViNGU2NTJkNmM=" target="_blank">
+       <img src="https://megatelevisiontv.live/img/logo_canal/Discovery_ID.png" alt="Discovery ID">
+      </a>
+     </li>
+     <li>
+      <a href="https://cabrillos.github.io/bc/ff.html?get=LmN2YXR0di5jb20uYXIvbGl2ZS9jN2Vkcy9EaXNjb3ZlcnlUdXJiby9TQV9MaXZlX2Rhc2hfZW5jXzJBL0Rpc2NvdmVyeVR1cmJvLm1wZA==&key=YTYxMWRkYmY4YzE1ZmE2MTdhMGMzOTFjYjdiM2UxMjg=&key2=MGNkMTMwMGJhZjg4OTAzODBmZDQxMTI0OTYyMTk1YzQ=" target="_blank">
+       <img src="https://megatelevisiontv.live/img/logo_canal/Discovery_Turbo.png" alt="Discovery Turbo">
+      </a>
+     </li>
+     <li>
+      <a href="https://cabrillos.github.io/bc/ff.html?get=LmN2YXR0di5jb20uYXIvbGl2ZS9jM2Vkcy9EaXNjb3ZlcnlIb21lSGVhbHRoSEQvU0FfTGl2ZV9kYXNoX2VuY18yQS9EaXNjb3ZlcnlIb21lSGVhbHRoSEQubXBk&key=OWIwYTc2ZGQ3YTBkZjFlMWI0MzIwYWViMTI1NGQxYTk=&key2=ZDAxMTI2Nzc3NWMzOGQ2ZDJhYjA5YjQyOGMwM2Q2M2Y=" target="_blank">
+       <img src="https://megatelevisiontv.live/img/logo_canal/Discovery_H&H.png" alt="Discovery H&H">
+      </a>
+     </li>
+     <li>
+      <a href="https://cabrillos.github.io/bc/ff.html?get=LmN2YXR0di5jb20uYXIvbGl2ZS9jN2Vkcy9IaXN0b3J5SEQvU0FfTGl2ZV9kYXNoX2VuY18yQS9IaXN0b3J5SEQubXBk&key=ZTgyMzE4ZTUxOGJhNzBjZWEzZDdiMzdiZWY5OWU2OTI=&key2=YTA1ZmNiNjM0YzA3MWE1MTRlMzAzOWUxYzI3NGI0ZGI=" target="_blank">
+       <img src="https://megatelevisiontv.live/img/history.png" alt="History">
+      </a>
+     </li>
+     <li>
+      <a href="https://cabrillos.github.io/bc/ff.html?get=LmN2YXR0di5jb20uYXIvbGl2ZS9jNmVkcy9IaXN0b3J5XzIvU0FfTGl2ZV9kYXNoX2VuYy9IaXN0b3J5XzIubXBk&key=ZWNiZTk3ZWMzNDc4NDMwNGIzOTBhMTJiYTM4NTRjY2Y=&key2=NWEwZWUzNmVkOWI4OTIwY2IxOTU0NmZkOTJmMmQ0MTU=" target="_blank">
+       <img src="https://megatelevisiontv.live/img/history_2.png" alt="History 2">
+      </a>
+     </li>
+     <li>
+      <a href="https://cabrillos.github.io/bc/ff.html?get=LmN2YXR0di5jb20uYXIvbGl2ZS9jN2Vkcy9BbmltYWxQbGFuZXQvU0FfTGl2ZV9kYXNoX2VuY18yQS9BbmltYWxQbGFuZXQubXBk&key=NDE0NmE4ZWNiYjA1NDBkYzgwN2M2Mzg5ZWU4N2UwYmM=&key2=MGMzY2RjMWIzZTQ2MTdjNTczNjEyNjVlOWZhNGM1YmQ=" target="_blank">
+       <img src="https://megatelevisiontv.live/img/logo_canal/Animal_Planet.png" alt="Animal Planet">
+      </a>
+     </li>
+     <li>
+      <a href="https://cabrillos.github.io/bc/ff.html?get=LmN2YXR0di5jb20uYXIvbGl2ZS9jM2Vkcy9OYXRHZW9IRC9TQV9MaXZlX2Rhc2hfZW5jXzJBL05hdEdlb0hELm1wZA==&key=NGJlMGM2MWNlZGRjNjIyOTRjYzllMjNiNjI3YWY1M2Q=&key2=ODUyYzE5MzVkMTFjM2M1M2QwYTFjZWZmM2JiM2JmMTY=" target="_blank">
+       <img src="https://megatelevisiontv.live/img/logo_canal/Natgeo.png" alt="NATGEO">
+      </a>
+     </li>
+     <!-- Aquí puedes agregar más canales -->
+    </ul>
+   </section>
+  </main>
+  <script>
+   const inputBusqueda = document.getElementById('busqueda');
+   const listaCanales = document.getElementById('canales').getElementsByTagName('li');
+   inputBusqueda.addEventListener('keyup', function() {
+    const textoBusqueda = inputBusqueda.value.toLowerCase();
+    for (let i = 0; i < listaCanales.length; i++) {
+     const canal = listaCanales[i].getElementsByTagName('img')[0].getAttribute('alt').toLowerCase();
+     if (canal.includes(textoBusqueda)) {
+      listaCanales[i].style.display = '';
+     } else {
+      listaCanales[i].style.display = 'none';
+     }
+    }
+   });
+  </script>
+ </body>
+</html>
