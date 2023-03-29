@@ -1,0 +1,96 @@
+/* Estilos CSS para la página */
+body {
+  background-color: #222222;
+  color: #ffffff;
+  font-size: 20px;
+  margin-left: 45px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  margin-right: 20px;
+  vertical-align: top;
+}
+
+li img {
+  width: 110px;
+  border-radius: 10%;
+  margin: 0 auto;
+  transition: transform 0.2s ease-in-out;
+}
+
+li:hover img {
+  transform: scale(1.5);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: -35px;
+}
+
+form label {
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  /* Agregado para hacer que "BUSCAR" esté en negrita */
+  text-align: center;
+}
+
+input[type="text"] {
+  height: 22px;
+  width: 50%;
+  max-width: 280px;
+  /* Agrega un ancho máximo para evitar que la barra de búsqueda sea demasiado ancha en pantallas grandes */
+  font-size: 20px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+  border-width: 3px;
+  /* Ajusta el grosor de la barra de búsqueda */
+}
+
+label,
+button {
+  font-size: 20px;
+}
+
+/* Agregado para crear el bloque gris */
+.lm-info-block {
+  background-color: #5557;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Media queries para dispositivos móviles */
+@media only screen and (max-width: 768px) {
+  li img {
+    width: 90px;
+  }
+
+  form {
+    margin-top: -30px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  li img {
+    width: 70px;
+  }
+
+  form {
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+}
