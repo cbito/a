@@ -12,7 +12,7 @@
     {
       title: "MLS",
       svg: `<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160"><polygon points="80,10 150,150 10,150" fill="#0000FF"/><text x="80" y="100" font-family="Arial" font-size="40" fill="#FFFFFF" text-anchor="middle">MLS</text></svg>`,
-      link: ""
+      link: "https://cabrillos.github.io/bc/m3u8.html?get=aHR0cHM6Ly90ZXMxLmRiY2FzdC5saXZlL2hJQkl2eTdONERVUnAyU3BKZHNrRHcvMTczMDYxNjU1OS8zMTM4MzEyZTMxMzIyZTMxMzEzMTJlMzkzMC9mZjU0OS9wbGF5bGlzdC5tM3U4"
     }
     // Aquí puedes agregar más canales
   ];
