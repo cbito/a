@@ -1,13 +1,18 @@
   const canales = [
     {
-      title: "Telefe",
+      title: "VENOM",
       svg: `<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160"><circle cx="80" cy="80" r="80" fill="#FF0000"/></svg>`,
-      link: "/en-vivo/nombre-de-tu-canal/"
+      link: "https://vidhidefast.com/v/lxni6eh6v7ds"
     },
     {
-      title: "Sony",
+      title: "Arthur",
       svg: `<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160"><rect width="160" height="160" fill="#0000FF"/></svg>`,
-      link: "/en-vivo/nombre-de-tu-canal/"
+      link: "https://fastbrisk.com/e/dut1r3igow18"
+    },
+    {
+      title: "MLS",
+      svg: `<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160"><rect width="160" height="160" fill="#0000FF"/></svg>`,
+      link: ""
     }
     // Aquí puedes agregar más canales
   ];
