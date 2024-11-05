@@ -2,12 +2,18 @@
     {
       title: "VENOM",
       svg: `<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160"><circle cx="80" cy="80" r="80" fill="#FF0000"/><text x="80" y="85" font-family="Arial" font-size="38" fill="#FFFFFF" text-anchor="middle">VENOM</text></svg>`,
-      link: "https://vidhidefast.com/v/lxni6eh6v7ds"
+      //link: "https://vidhidefast.com/v/lxni6eh6v7ds"
+      link: "https://fastbrisk.com/e/r1jl1vl7ktdp"
     },
     {
       title: "Arthur",
       svg: `<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160"><rect width="160" height="160" fill="#0000FF"/><text x="80" y="85" font-family="Arial" font-size="36" fill="#FFFFFF" text-anchor="middle">ARTHUR</text></svg>`,
       link: "https://fastbrisk.com/e/dut1r3igow18"
+    },
+    {
+      title: "MEGALODON",
+      svg: `<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160"><rect width="160" height="160" fill="#0000FF"/><text x="80" y="85" font-family="Arial" font-size="36" fill="#FFFFFF" text-anchor="middle">MEGALODON</text></svg>`,
+      link: "https://file-zz40pd56-embed.com/ptsd/mdkvgoinnpa0"
     },
     {
       title: "MLS",
