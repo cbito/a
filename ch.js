@@ -12,7 +12,7 @@
     },
     {
       title: "MEGALODON",
-      svg: `<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160"><rect width="160" height="160" fill="#000000"/><text x="80" y="85" font-family="Arial" font-size="30" fill="#FFFFFF" text-anchor="middle">MEGALODON</text></svg>`,
+      svg: `<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160"><rect width="160" height="160" fill="#000000"/><text x="100" y="85" font-family="Arial" font-size="30" fill="#FFFFFF" text-anchor="middle">MEGALODON</text></svg>`,
       link: "https://file-zz40pd56-embed.com/ptsd/mdkvgoinnpa0"
     },
     {
