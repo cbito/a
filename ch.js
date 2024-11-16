@@ -29,6 +29,11 @@
       title: "TYC",
       svg: `<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160"><polygon points="80,10 150,150 10,150" fill="#0000FF"/><text x="80" y="100" font-family="Arial" font-size="40" fill="#FFFFFF" text-anchor="middle">TYC</text></svg>`,
       link: "https://cabrillos.github.io/bc/m3u8.html?get=aHR0cHM6Ly9jaDAxLTA0LTExLXR5Yy52b2RnYy5uZXQvb3V0L3YxLzg0ZWUyYjBjY2UzODRhMzBhYmQ3MGIwNTU2MmRkZDkxL2luZGV4XzkubTN1OA=="
+    },
+    {
+      title: "BOX",
+      svg: `<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160"><polygon points="80,10 150,150 10,150" fill="#0000FF"/><text x="80" y="100" font-family="Arial" font-size="40" fill="#FFFFFF" text-anchor="middle">box</text></svg>`,
+      link: "https://streamtp1.com/global1.php?stream=eventos8"
     }
     // Aquí puedes agregar más canales
   ];
