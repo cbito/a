@@ -24,6 +24,11 @@
       title: "MLS2",
       svg: `<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160"><rect width="160" height="160" fill="#000000"/><text x="80" y="100" font-family="Arial" font-size="40" fill="#FFFFFF" text-anchor="middle">MLS 2</text></svg>`,
       link: "https://streamtp1.com/global1.php?stream=eventos3"
+    },
+    {
+      title: "TYC",
+      svg: `<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160"><polygon points="80,10 150,150 10,150" fill="#0000FF"/><text x="80" y="100" font-family="Arial" font-size="40" fill="#FFFFFF" text-anchor="middle">TYC</text></svg>`,
+      link: "https://cabrillos.github.io/bc/m3u8.html?get=aHR0cHM6Ly9jaDAxLTA0LTExLXR5Yy52b2RnYy5uZXQvb3V0L3YxLzg0ZWUyYjBjY2UzODRhMzBhYmQ3MGIwNTU2MmRkZDkxL2luZGV4XzkubTN1OA=="
     }
     // Aquí puedes agregar más canales
   ];
